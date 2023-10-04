@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <style>
+        body {
+            /* background-color: #001524; */
+        }
+
+        .d-flex {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box {
+            width: 29%;
+            margin: 2px auto;
+            border: 1px solid #ccc;
+            border-radius: 28px 28px;
+        }
+
+        .search-box input {
+            width: 491px;
+            border: 0;
+            outline: 0;
+            background-color: transparent;
+            padding-left: 22px;
+            font-size: 24px;
+        }
+
+        .search-box i {
+            width: 32px;
+            border-left: 2px solid grey;
+            height: 25px;
+            padding: 16px 20px 7px 14px;
+            background: #bfbbbba1;
+            border-radius: 0px 25px 25px 3px;
+            font-size: 23px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search-box d-flex">
+        <input type="text" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+</body>
+
+</html>
